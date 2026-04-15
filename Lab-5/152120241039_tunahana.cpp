@@ -9,6 +9,7 @@ struct Stack {
     int top;
 };
 
+
 void initStack(Stack* s) { s->top = -1; }
 bool isStackEmpty(Stack* s) { return s->top == -1; }
 void push(Stack* s, int val) {
